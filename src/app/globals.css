@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 必要に応じてカスタム設定 */
+body {
+  @apply bg-gray-900 text-white;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
